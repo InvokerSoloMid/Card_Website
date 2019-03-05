@@ -64,6 +64,7 @@ body{
 .intro{
 	font-size: 18px;
 	background: rgba(255,245,215,0.4);
+	text-align: center;
 }
 
 .titles{	
