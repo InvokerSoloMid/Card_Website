@@ -5,6 +5,7 @@ body{
     background-size: cover;
     width: 99vw;
     height: 40vw;
+
 }
 
 .icon-bar{
@@ -75,7 +76,7 @@ body{
 .skillBox{
 	margin: 0 auto;
 	padding: 0;
-	height: 30%;
+	height: 10%;
 	width: 250px;
 	margin-top: 20px;
 	display: inline-block;
@@ -90,19 +91,62 @@ body{
 
 .skillBar{
 	border-radius: 10px;
-	height: 100%;
 	width: 150px;
 	background: purple;
 	opacity: 0.7;
 	display: inline-block;
 }
 
-.skill{
+.skill1{
 	border-radius: 10px;
 	float: left;
 	height: 100%;
-	width: 70px;
+	width: 80px;
 	background-color: black;
+}
+
+.skill2{
+	border-radius: 10px;
+	float: left;
+	height: 100%;
+	width: 80px;
+	background-color: black;
+}
+
+.skill3{
+	border-radius: 10px;
+	float: left;
+	height: 100%;
+	width: 100px;
+	background-color: black;
+}
+
+.skill4{
+	border-radius: 10px;
+	float: left;
+	height: 100%;
+	width: 100px;
+	background-color: black;
+}
+
+.skill5{
+	border-radius: 10px;
+	float: left;
+	height: 100%;
+	width: 60px;
+	background-color: black;
+}
+
+.skill6{
+	border-radius: 10px;
+	float: left;
+	height: 100%;
+	width: 145px;
+	background-color: black;
+}
+
+.skill:nth-child(3){
+	width: 120px;
 }
 
 .box{
@@ -119,4 +163,141 @@ body{
 	border: 2px solid purple;
 	border-radius: 15px;
 	display: inline-block;
+}
+
+.users{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background: green;
+}
+
+.user{
+    width: 100%;
+    height: 15%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: seashell;
+}
+
+.picture{
+    width: auto;
+    height: 80%;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 300px;
+    display: inline-block;
+}
+
+.ava{
+    float: left;
+    width: 10%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 0;
+    border-radius: 100px;
+    border: 1px solid red;
+}
+
+.message{
+    width: 80%;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #710575;
+    color: white;
+}
+
+.info{
+    height: 10%;
+    padding: 0;
+    margin-top:20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.chat{
+	overflow-y: scroll;
+    float: right;
+    width: 100%;
+    height: 630px;
+    background: rgba(255,255,2555,0.4);
+    display: inline-block;
+    border-radius: 40px 0 0 40px;
+}
+
+.name{
+	float: left;
+	margin-left: 2%;
+    padding: 0;
+    font-size: 20px;
+    color:blueviolet;
+}
+
+.button{
+    text-align: center;
+    font-size: 50px;
+    position: fixed; 
+    left: 0; bottom: 0;
+    width: 25%;
+    height: 50px;
+    vertical-align: top;
+    background: #dcdcff;
+}
+
+
+.portfolio{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.w-100{
+	border-radius: 30px;
+	height: 650px;
+}
+
+.fab{
+	color: black;
+	height: 50px;
+	width: 50px;
+	margin-right: 50px;
+}
+
+.fas{
+	color: black;
+	height: 50px;
+	width: 50px;
+	margin-right: 50px;
+}
+
+.fa{
+	color: black;
+	height: 50px;
+	width: 50px;
+	margin-right: 50px;
+}
+
+.fab:hover {
+    color: purple;
+}
+
+.fas:hover {
+    color: purple;
+}
+
+.fa:hover {
+    color: purple;
+}
+
+.a{
+	text-decoration: none;
+}
+
+.unic{
+	margin: 0;
 }
